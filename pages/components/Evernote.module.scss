@@ -1,0 +1,86 @@
+$darkRedOne: rgb(156, 56, 56);
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mainContainer .btnContainer {
+    margin-top: 1rem;
+}
+
+.inputContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 15rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: #001;
+    color: whitesmoke;
+    border: 3px solid #212121;
+    font-family: "Supermercado One", cursive;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+.addInput {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+    padding: 10px;
+    border-radius: 1.5rem;
+    border: 3px solid #550f03;
+}
+
+.addInput:focus {
+    border: 3px solid #801805;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.newNote p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.saveBtn {
+    width: 10rem;
+    height: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: #801805;
+    border: 3px solid $darkRedOne;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.showNotes {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.innerNotes {
+    border: 2px solid $darkRedOne;
+    border-top: 5px solid $darkRedOne;
+    border-radius: 15px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+
+.editIcon{
+    cursor: pointer;
+    margin: 5px;
+}
+
+.ReactQuill{
+    margin: 1rem;
+}
